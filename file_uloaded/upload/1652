@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+            div{
+                border: 2px solid blue;
+                margin-top: 50px;
+                padding-top: 23px;
+                padding-left: 80px;
+                padding-right: 80px;
+                padding-bottom: 80px;
+                text-align: center;
+                font-size: 40px;
+                    
+            }
+            a:link{
+                padding-top: 25px;
+                margin-top: 0px;
+                text-decoration: underline;
+                text-align: center;
+                     
+            }
+            a:visited{
+                border: 2px solid red;
+                color: rgb(255, 0, 0);
+                padding: 25px;
+                margin-top: 0px;
+                text-decoration: none;
+                text-align: center;
+                background-color: aqua;
+                
+            }
+            a:hover{
+            
+                color: #f4fcfc;
+                margin-top: 0px;
+                text-decoration: none;
+                text-align: center;
+                background-color: rgb(5, 80, 243);
+                
+            }
+            a:active{
+                border: 2px solid red;
+                color: #ff00ddf8;
+                padding: 25px;
+                margin-top: 0px;
+                text-decoration: none;
+                text-align: center;
+                background-color: aqua;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <a href="#">Normal Link</a>
+        </div>
+    </body>
+</html>
